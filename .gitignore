@@ -1,1 +1,2 @@
-build/*
+dos.filter/build/*
+.idea/
