@@ -11,13 +11,13 @@ repositories {
     mavenCentral()
 }
 
-description = "Spring boot Gradle Example"
+description = "Jetty DoS Filter Implementation"
 
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 
 jar {
-    baseName = 'spring-boot-gradle-example' // jar file name
+    baseName = 'jetty-dos-filter-example' // jar file name
     version =  '1.0.0'                      // version
 }
 
@@ -34,5 +34,4 @@ dependencies {
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-group 'spring-boot-demo'
 version '1.0-SNAPSHOT'
