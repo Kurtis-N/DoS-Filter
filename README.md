@@ -1,5 +1,6 @@
 # DoS-Filter
-Jetty's DoS filter implementation using SpringBoot and Gradle
+An implementation of Jetty's DoS filter using SpringBoot and Gradle.
+Launch the web app and hit refresh multiple times to see your requests throttled.
 
 # Build Run Locally
 1. Clone project and import into IntelliJ or similar IDE
